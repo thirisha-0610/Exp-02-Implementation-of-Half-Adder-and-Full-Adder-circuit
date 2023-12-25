@@ -11,11 +11,13 @@ Theory
 Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
+
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 ### Full Adder
+
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
@@ -36,19 +38,37 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
+
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: THIRISHA A
+RegisterNumber: 23005642 
 */
+Half Adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/fb7ac983-9a05-44bf-bf99-b8e30f6f8e7b)
+
+Full Adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/434b56ff-eef0-449a-9ef3-05e2529fd691)
+
 Logic symbol & Truthtable
+
 RTL realization
+Half adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/c8af94b1-9469-46ff-8768-7a308afe5915)
+Full adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/8fa6100d-8f89-4749-8681-5514cb10c257)
 
-### Output:
-### RTL
-### TIMING DIAGRAM
-
+### Output/Timig diagram:
+Half adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/a959b228-8f33-4020-b06e-9e0767cd7f84)
+Full adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/74d07962-2d6e-4da1-9b53-8a9819b7e258)
 
 ### TRUTH TABLE 
+Half adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/03c627d5-fcd0-4fa2-a27f-2b57b83e4a13)
+Full adder:
+![image](https://github.com/thirisha-0610/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149347494/9100fabd-aed9-46db-bda4-712cb8a574bd)
 
 ### Result:
+Thus implementation of half adder and full adder circuit are verified.
