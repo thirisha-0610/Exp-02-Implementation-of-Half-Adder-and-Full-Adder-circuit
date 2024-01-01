@@ -74,3 +74,4 @@ Full adder:
 
 ### Result:
 Thus implementation of half adder and full adder circuit are verified.
+
